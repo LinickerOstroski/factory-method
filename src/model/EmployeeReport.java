@@ -1,6 +1,8 @@
 package model;
 
 public abstract class EmployeeReport {
+	
+	
 	public String reportData(EmployeeType type) {
 		
 		// createEmployee é um template method
@@ -10,7 +12,7 @@ public abstract class EmployeeReport {
 				employee.getRole(),
 				employee.getCurrency(),
 				employee.calculateSalary());
-		return "";
+		return result;
 	}
 	
 	protected abstract Employee createEmployee(EmployeeType type);

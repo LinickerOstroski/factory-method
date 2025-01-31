@@ -12,5 +12,5 @@ public class ProgrammerUS extends Employee{
 	public double calculateSalary() {
 		return 15000.0;
 	}
-
+	
 }
